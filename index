@@ -1,6 +1,5 @@
 <html>
 <head>
-	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title></title>
 	<style type="text/css">
@@ -63,7 +62,7 @@
 			   		(m[1] + m[4] + m[7] == "XXX") ||
 			   		(m[2] + m[5] + m[8] == "XXX")) {
 			   			gameover = true;
-			   			alert("Победили кресты");
+			   			alert("X win");
 				} else
 
 				if ((m[0] + m[1] + m[2] == "OOO") ||
@@ -75,7 +74,7 @@
 			   		(m[1] + m[4] + m[7] == "OOO") ||
 			   		(m[2] + m[5] + m[8] == "OOO")) {
 			   			gameover = true;
-			   			alert("Победили нули");
+			   			alert("O win");
 				} else
 				{
 					isEmpty = false;
@@ -87,7 +86,7 @@
 
 					if (isEmpty == false){
 						gameover = true;
-			   			alert("Никто не победил");
+			   			alert("Draw");
 					}
 				}
 			}
